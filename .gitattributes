@@ -1,0 +1,4 @@
+global_polygons/country_borders.csv filter=lfs diff=lfs merge=lfs -text
+global_polygons/ocean_coarse.txt filter=lfs diff=lfs merge=lfs -text
+global_polygons/ocean_fine.csv filter=lfs diff=lfs merge=lfs -text
+global_polygons/state_borders.csv filter=lfs diff=lfs merge=lfs -text
