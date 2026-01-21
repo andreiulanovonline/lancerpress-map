@@ -1,0 +1,13 @@
+﻿[
+  {
+    "save_attributes": ["name", "addr:housenumber"],
+
+    "color background":  [44,  62,  80],
+    "color ink":         [236, 240, 241],
+    "color mid":         [149, 165, 166],
+    "color fill":        [52,  73,  94],
+    "color blue":        [26,  37,  48],
+    "color green":       [39,  60,  60],
+    "color road":        [52,  73,  94]
+  }
+]

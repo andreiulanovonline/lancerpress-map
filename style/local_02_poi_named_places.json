@@ -1,0 +1,228 @@
+[
+  {
+    "//": "--- PRIVATE MEMBERS' CLUBS ---",
+    "id"          : "club_annabels",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "Annabel's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_5_hertford",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "5 Hertford Street", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_arts_club",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "The Arts Club", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_harrys_bar",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "Harry's Bar", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_oswalds",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "Oswald's" }
+  },
+  {
+    "id"          : "club_whites",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "White's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_boodles",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "Boodle's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_hurlingham",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "The Hurlingham Club", "wikipedia": "*" }
+  },
+  {
+    "id"          : "club_soho_house_greek",
+    "base_id"     : "club_private_members",
+    "detect_tags" : { "name": "Soho House" }
+  },
+
+  {
+    "//": "--- GRAND HOTELS (Mapped to Generic Luxury POI) ---",
+    "id"          : "hotel_claridges",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Claridge's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_connaught",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "The Connaught", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_ritz",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "The Ritz London", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_savoy",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "The Savoy", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_dorchester",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "The Dorchester", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_mandarin_oriental",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Mandarin Oriental Hyde Park", "wikipedia": "*" }
+  },
+  {
+    "id"          : "hotel_lanesborough",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "The Lanesborough", "wikipedia": "*" }
+  },
+
+  {
+    "//": "--- ICONIC DINING ---",
+    "id"          : "dining_wolseley",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "The Wolseley", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_scotts",
+    "base_id"     : "restaurant_seafood",
+    "detect_tags" : { "name": "Scott's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_sexy_fish",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "Sexy Fish" }
+  },
+  {
+    "id"          : "dining_bacchanalia",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "Bacchanalia" }
+  },
+  {
+    "id"          : "dining_nobu_park_lane",
+    "base_id"     : "restaurant_japanese",
+    "detect_tags" : { "name": "Nobu", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_zuma",
+    "base_id"     : "restaurant_japanese",
+    "detect_tags" : { "name": "Zuma", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_hakkasan",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "Hakkasan", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_gordon_ramsay",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "Restaurant Gordon Ramsay", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_river_cafe",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "The River Café", "wikipedia": "*" }
+  },
+  {
+    "id"          : "dining_sketch",
+    "base_id"     : "restaurant_fine_dining",
+    "detect_tags" : { "name": "Sketch", "wikipedia": "*" }
+  },
+
+  {
+    "//": "--- LUXURY RETAIL ANCHORS ---",
+    "id"          : "shop_harrods",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Harrods", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_selfridges",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Selfridges", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_fortnums",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Fortnum & Mason", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_liberty",
+    "base_id"     : "poi_luxury",
+    "detect_tags" : { "name": "Liberty London", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_sothebys",
+    "base_id"     : "shop_auction_house",
+    "detect_tags" : { "name": "Sotheby's", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_christies",
+    "base_id"     : "shop_auction_house",
+    "detect_tags" : { "name": "Christie's", "wikipedia": "*" }
+  },
+  
+  {
+    "//": "--- HIGH JEWELRY & WATCHES ---",
+    "id"          : "shop_graff",
+    "base_id"     : "shop_jewelry",
+    "detect_tags" : { "name": "Graff" }
+  },
+  {
+    "id"          : "shop_cartier_bond",
+    "base_id"     : "shop_jewelry",
+    "detect_tags" : { "name": "Cartier", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_tiffany",
+    "base_id"     : "shop_jewelry",
+    "detect_tags" : { "name": "Tiffany & Co.", "wikipedia": "*" }
+  },
+  {
+    "id"          : "shop_van_cleef",
+    "base_id"     : "shop_jewelry",
+    "detect_tags" : { "name": "Van Cleef & Arpels" }
+  },
+  {
+    "id"          : "shop_patek",
+    "base_id"     : "shop_watches",
+    "detect_tags" : { "name": "Patek Philippe" }
+  },
+  {
+    "id"          : "shop_rolex_one",
+    "base_id"     : "shop_watches",
+    "detect_tags" : { "name": "Rolex" }
+  },
+
+  {
+    "//": "--- CULTURE ---",
+    "id"          : "culture_roh",
+    "base_id"     : "culture_theatre",
+    "detect_tags" : { "name": "Royal Opera House", "wikipedia": "*" }
+  },
+  {
+    "id"          : "culture_rah",
+    "base_id"     : "culture_theatre",
+    "detect_tags" : { "name": "Royal Albert Hall", "wikipedia": "*" }
+  },
+  {
+    "id"          : "culture_tate_modern",
+    "base_id"     : "culture_museum",
+    "detect_tags" : { "name": "Tate Modern", "wikipedia": "*" }
+  },
+  {
+    "id"          : "culture_va_museum",
+    "base_id"     : "culture_museum",
+    "detect_tags" : { "name": "Victoria and Albert Museum", "wikipedia": "*" }
+  },
+  {
+    "id"          : "culture_saatchi",
+    "base_id"     : "culture_gallery",
+    "detect_tags" : { "name": "Saatchi Gallery", "wikipedia": "*" }
+  }
+]

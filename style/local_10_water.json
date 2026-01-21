@@ -1,0 +1,217 @@
+[
+{
+    "id"     : "ocean_fine",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "fill_color"  : "blue"
+},
+{
+    "id"     : "island",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "z_index_name"  : 12,
+    "fill_color"  : "background",
+    "text_color"   : "ink",
+    "max_mip": 2500,
+    "font": "elegant.ttf",
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "place" : "island"
+    }
+},
+{
+    "id"     : "bay_area",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "z_index_name"  : 12,
+    "fill_color"  : "blue",
+    "text_color"   : "ink",
+    "max_mip": 500,
+    "font": "elegant.ttf",
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "natural" : "bay"
+    }
+},
+{
+    "id"     : "intermittent_water",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "fill_color"  : "blue",
+    "fill_style"  : "Horiz",
+    "max_mip": 500,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "intermittent" : "yes"
+    }
+},
+{
+    "id"     : "lagoon",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "fill_color"  : "blue",
+    "max_mip": 500,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "lagoon"
+    }
+},
+{
+    "id"     : "lake",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "z_index_name"  : 12,
+    "fill_color"  : "blue",
+    "text_color"   : "ink",
+    "max_mip": 2500,
+    "font": "elegant.ttf",
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "lake"
+    }
+},
+{
+    "id"     : "river_area",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "fill_color"  : "blue",
+    "max_mip": 500,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "river"
+    }
+},
+{
+    "id"     : "oxbow",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "oxbow"
+    }
+},
+{
+    "id"     : "basin",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "basin"
+    }
+},
+{
+    "id"     : "canal",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "z_index_name"  : 12,
+    "text_color"   : "ink",
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "canal"
+    }
+},
+{
+    "id"     : "harbour",
+    "shape"   : "Area",
+    "z_index"  : 0,
+    "z_index_name"  : 12,
+    "fill_color"  : "blue",
+    "text_color"   : "ink",
+    "max_mip": 50,
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "harbour"
+    }
+},
+{
+    "id"     : "pond",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "z_index_name"  : 12,
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "pond"
+    }
+},
+{
+    "id"     : "reservoir",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "detect_tags" :
+    {
+      "natural" : "water",
+      "water" : "reservoir"
+    }
+},
+{
+    "id"     : "water",
+    "shape"   : "Area",
+    "z_index"  : 1,
+    "fill_color"  : "blue",
+    "max_mip": 50,
+    "detect_tags" :
+    {
+      "natural" : "water"
+    }
+},
+{
+    "id"     : "river_line",
+    "shape"   : "Line",
+    "z_index"  : 0,
+    "z_index_name"  : 12,
+    "width_mm" : 0.1,
+    "text_color"   : "ink",
+    "max_mip": 50,
+    "font_italic": 1,
+    "font_size_mm": 2,
+    "detect_tags" :
+    {
+      "waterway" : "river"
+    }
+},
+{
+    "id"     : "canal_line",
+    "shape"   : "Line",
+    "z_index"  : 1,
+    "z_index_name"  : 12,
+    "width_mm" : 0.1,
+    "line_color"   : "mid",
+    "text_color"   : "ink",
+    "max_mip": 50,
+    "font_italic": 1,
+    "detect_tags" :
+    {
+      "waterway" : "canal"
+    }
+}
+]

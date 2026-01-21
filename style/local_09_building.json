@@ -1,0 +1,32 @@
+[
+{
+  "id": "generic_building",
+  "shape": "Area",
+  "z_index": 4,
+  "z_index_name": 13,
+  "line_color": "mid",
+  "fill_color": "fill",
+  "text_color": "ink",
+  "outline_width_pix": 1,
+  "text_max_mip": 0.3,
+  "max_mip": 3,
+  "width_mm": 0.1,
+  "font": "modern.ttf",
+  "detect_tags":
+  {
+    "building": "*"
+  }
+},
+{
+  "id": "bridge",
+  "shape": "Area",
+  "z_index": 4,
+  "fill_color": "fill",
+  "max_mip": 10,
+  "font": "mono.ttf",
+  "detect_tags":
+  {
+    "man_made": "bridge"
+  }
+}
+]
