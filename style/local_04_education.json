@@ -5,9 +5,9 @@
     "z_index"  : 11,
     "z_index_name"  : 2,
     "text_color" : "ink",
-    "width_mm" : 4,
+    "width_mm" : 2.5,
     "font": "modern.ttf",
-    "font_size_mm": 3,
+    "font_size_mm": 2.5,
     "svg_stroke": "ink",
     "svg_fill": "background"
   },

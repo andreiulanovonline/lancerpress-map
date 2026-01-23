@@ -1,0 +1,14 @@
+lpk*/
+pbf*/
+*.o
+Makefile
+*.pro.user
+.qmake.stash
+moc_*.cpp
+ui_*.h
+*.a
+*.so
+*.dylib
+*.dll
+.DS_Store
+

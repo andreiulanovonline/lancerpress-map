@@ -1,0 +1,161 @@
+[
+  {
+    "id"     : "club",
+    "shape"   : "Point",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "club.svg",
+    "detect_tags" :
+    {
+      "club": "*",
+      "wikipedia": "*"
+    }
+  },
+  {
+    "id"     : "hotel",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "hotel.svg",
+    "detect_tags" :
+    {
+      "building": "hotel",
+      "wikipedia": "*"
+    }
+  },
+  {
+    "id"     : "dining_wikipedia",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "restaurant.svg",
+    "detect_tags" :
+    {
+      "amenity": "restaurant",
+      "wikipedia": "*"
+    }
+  },
+  {
+    "id"     : "dining_website",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "restaurant.svg",
+    "detect_tags" :
+    {
+      "amenity": "restaurant",
+      "website": "*"
+    }
+  },
+  {
+    "id"     : "auction",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "auction.svg",
+    "detect_tags" :
+    {
+      "name": "*",
+      "shop": "auction"
+    }
+  },
+  {
+    "id"     : "jewelry",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "jewelry.svg",
+    "detect_tags" :
+    {
+      "name": "*",
+      "shop": "jewelry"
+    }
+  },
+  {
+    "id"     : "theatre",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "svg" : "theatre.svg",
+    "detect_tags" :
+    {
+      "theatre:genre": "*",
+      "listed_status": "*"
+    }
+  },
+  {
+    "id"     : "famous_building",
+    "shape"   : "Area",
+    "z_index"  : 14,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 4,
+    "font": "modern.ttf",
+    "font_size_mm": 2.5,
+    "svg_stroke": "ink",
+    "svg_fill": "background",
+    "max_mip": 2,
+    "width_mm" : 3,
+    "detect_tags" :
+    {
+      "name": "*",
+      "listed_status": "*"
+    }
+  }
+]

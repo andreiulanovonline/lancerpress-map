@@ -5,9 +5,11 @@
     "color background":  [253, 250, 245],
     "color ink":         [44,  62,  80],
     "color mid":         [189, 195, 199],
+    "color mid_trans":   [189, 195, 199, 150],
     "color fill":        [236, 240, 241],
     "color blue":        [225, 235, 238],
     "color green":       [232, 237, 223],
-    "color road":        [255, 255, 255]
+    "color road":        [255, 255, 255],
+    "color road_trans":  [255, 255, 255, 150]
   }
 ]
