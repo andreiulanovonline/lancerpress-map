@@ -42,7 +42,7 @@
     "text_max_mip": 10,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 3,
+    "font_size_mm": 1.5,
     "detect_tags" :
     {
       "highway" : "motorway"
@@ -75,7 +75,7 @@
     "text_max_mip": 5,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.4,
     "detect_tags" :
     {
       "highway" : "trunk"
@@ -108,7 +108,7 @@
     "text_max_mip": 5,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.3,
     "detect_tags" :
     {
       "highway" : "primary"
@@ -141,6 +141,7 @@
     "text_max_mip": 3,
     "font": "mono.ttf",
     "font_capitalize": 1,
+    "font_size_mm": 1.2,
     "detect_tags" :
     {
       "highway" : "secondary"
@@ -149,7 +150,6 @@
   {
     "id"     : "secondary_link",
     "base_id": "secondary",
-    "width_mm" : 0.25,
     "detect_tags" :
     {
       "highway" : "secondary_link"
@@ -165,12 +165,13 @@
     "outline_width_pix": 2,
     "outline_color" : "mid_trans",
     "physical_width_m" : 5.0,
-    "width_mm" : 0.4,
+    "width_mm" : 0.5,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
     "max_mip": 10,
     "text_max_mip": 3,
     "font": "mono.ttf",
+    "font_size_mm": 1.1,
     "font_capitalize": 1,
     "detect_tags" :
     {
@@ -180,7 +181,6 @@
   {
     "id"     : "tertiary_link",
     "base_id": "tertiary",
-    "width_mm" : 0.25,
     "detect_tags" :
     {
       "highway" : "tertiary_link"
@@ -188,7 +188,8 @@
   },
   {
     "id"     : "residential",
-    "physical_width_m" : 3.0,
+    "physical_width_m" : 3,
+    "font_size_mm": 1.0,
     "base_id": "tertiary",
     "detect_tags" :
     {
@@ -206,7 +207,7 @@
 {
     "id"     : "service",
     "base_id": "residential",
-    "physical_width_m" : 2,
+    "physical_width_m" : 3,
     "detect_tags" :
     {
       "highway" : "service"
@@ -214,7 +215,7 @@
 },
 {
     "id"     : "living_street",
-    "physical_width_m" : 2,
+    "physical_width_m" : 3,
     "base_id": "residential",
     "detect_tags" :
     {
@@ -223,7 +224,7 @@
 },
 {
     "id"     : "pedestrian",
-    "physical_width_m" : 2,
+    "physical_width_m" : 3,
     "base_id": "residential",
     "detect_tags" :
     {
@@ -232,7 +233,7 @@
 },
 {
     "id"     : "footway",
-    "physical_width_m" : 2,
+    "physical_width_m" : 3,
     "base_id": "residential",
     "detect_tags" :
     {
@@ -255,6 +256,7 @@
     "text_color" : "ink",
     "max_mip": 3,
     "font": "mono.ttf",
+    "font_size_mm": 1.5,
     "detect_tags" :
     {
       "highway" : "square"
@@ -268,6 +270,7 @@
     "text_color" : "ink",
     "max_mip": 3,
     "font": "mono.ttf",
+    "font_size_mm": 1.5,
     "detect_tags" :
     {
       "highway" : "pedestrian"

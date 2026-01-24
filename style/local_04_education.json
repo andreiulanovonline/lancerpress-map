@@ -1,19 +1,19 @@
 [
   {
-    "id"     : "poi_education",
+    "id"     : "education",
     "shape"   : "Point",
     "z_index"  : 11,
     "z_index_name"  : 2,
     "text_color" : "ink",
     "width_mm" : 2.5,
     "font": "modern.ttf",
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.5,
     "svg_stroke": "ink",
     "svg_fill": "background"
   },
   {
     "id"      : "school",
-    "base_id" : "poi_education",
+    "base_id" : "education",
     "svg" : "school.svg",
     "max_mip": 1,
     "detect_tags" :
@@ -23,7 +23,7 @@
   },
   {
     "id"      : "university",
-    "base_id" : "poi_education",
+    "base_id" : "education",
     "svg" : "college.svg",
     "max_mip": 3,
     "detect_tags" :
@@ -33,7 +33,7 @@
   },
   {
     "id"      : "college",
-    "base_id" : "poi_education",
+    "base_id" : "education",
     "svg" : "college.svg",
     "max_mip": 3,
     "detect_tags" :
@@ -43,7 +43,7 @@
   },
   {
     "id"      : "kindergarten",
-    "base_id" : "poi_education",
+    "base_id" : "education",
     "svg" : "playground.svg",
     "max_mip": 1,
     "width_mm" : 2,

@@ -1,17 +1,21 @@
 [
   {
-    "id"     : "club",
+    "id"     : "famous",
     "shape"   : "Point",
     "z_index"  : 14,
     "z_index_name"  : 2,
     "text_color" : "ink",
-    "width_mm" : 4,
+    "width_mm" : 2.5,
     "font": "modern.ttf",
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.5,
     "svg_stroke": "ink",
     "svg_fill": "background",
     "max_mip": 2,
-    "width_mm" : 3,
+    "width_mm" : 3
+  },
+  {
+    "id"     : "club",
+    "base_id": "famous",
     "svg" : "club.svg",
     "detect_tags" :
     {
@@ -21,17 +25,7 @@
   },
   {
     "id"     : "hotel",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "hotel.svg",
     "detect_tags" :
     {
@@ -41,17 +35,7 @@
   },
   {
     "id"     : "dining_wikipedia",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "restaurant.svg",
     "detect_tags" :
     {
@@ -61,17 +45,7 @@
   },
   {
     "id"     : "dining_website",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "restaurant.svg",
     "detect_tags" :
     {
@@ -81,17 +55,7 @@
   },
   {
     "id"     : "auction",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "auction.svg",
     "detect_tags" :
     {
@@ -101,17 +65,7 @@
   },
   {
     "id"     : "jewelry",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "jewelry.svg",
     "detect_tags" :
     {
@@ -121,17 +75,7 @@
   },
   {
     "id"     : "theatre",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "svg" : "theatre.svg",
     "detect_tags" :
     {
@@ -141,17 +85,7 @@
   },
   {
     "id"     : "famous_building",
-    "shape"   : "Area",
-    "z_index"  : 14,
-    "z_index_name"  : 2,
-    "text_color" : "ink",
-    "width_mm" : 4,
-    "font": "modern.ttf",
-    "font_size_mm": 2.5,
-    "svg_stroke": "ink",
-    "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3,
+    "base_id": "famous",
     "detect_tags" :
     {
       "name": "*",

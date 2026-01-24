@@ -5,7 +5,7 @@
     "z_index"  : 15,
     "z_index_name"  : 1,
     "text_color" : "ink",
-    "width_mm" : 2.5,
+    "width_mm" : 1.5,
     "font": "modern.ttf",
     "font_weight": 500,
     "font_size_mm": 2.5,

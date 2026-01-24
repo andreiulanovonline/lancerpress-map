@@ -8,7 +8,7 @@
     "width_mm" : 0.1,
     "font": "elegant.ttf",
     "font_weight": 500,
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.5,
     "max_mip": 3
   },
   {
@@ -144,7 +144,7 @@
   {
     "id"     : "listed",
     "base_id" : "historic",
-    "shape"   : "Area",
+    "shape"   : "Point",
     "line_color": "mid",
     "fill_color": "fill",
     "text_color": "ink",

@@ -1,50 +1,44 @@
 [
+   {
+      "id"     : "green_space",
+      "shape"   : "Area",
+      "z_index"  : 0,
+      "fill_color"  : "green",
+      "text_color" : "ink",
+      "font": "modern.ttf",
+      "font_italic": 1,
+      "font_size_mm": 1.5,
+      "font_capitalize": 1,
+      "font_spacing": 150
+   },
 {
-   "id"     : "wood",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
+   "id"     : "forest",
+   "base_id": "green_space",
    "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "font_capitalize": 1,
-   "font_spacing": 150,
    "detect_tags" :
    {
      "landuse" : "forest"
    }
 },
 {
-   "id"     : "forest",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "font_capitalize": 1,
-   "font_spacing": 150,
+   "id"     : "grass",
+   "base_id": "forest",
+   "detect_tags" :
+   {
+     "landuse" : "grass"
+   }
+},
+{
+   "id"     : "wood",
+   "base_id": "forest",
    "detect_tags" :
    {
      "natural" : "wood"
    }
 },
 {
-   "id"     : "park",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "font_capitalize": 1,
-   "font_spacing": 150,
+   "id"      : "park",
+   "base_id" : "forest",
    "detect_tags" :
    {
      "leisure" : "park"
@@ -52,16 +46,8 @@
 },
 {
    "id"     : "garden",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "font_capitalize": 1,
-   "font_spacing": 150,
+   "base_id" : "green_space",
+   "max_mip": 10,
    "detect_tags" :
    {
      "leisure" : "garden"
@@ -69,46 +55,15 @@
 },
 {
    "id"     : "golf_course",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "font_capitalize": 1,
-   "font_spacing": 150,
+   "base_id" : "garden",
    "detect_tags" :
    {
      "leisure" : "golf_course"
    }
 },
 {
-   "id"     : "grass",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
-   "detect_tags" :
-   {
-     "landuse" : "grass"
-   }
-},
-{
    "id"     : "recreation_ground",
-   "shape"   : "Area",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "text_color" : "ink",
-   "max_mip": 50,
-   "font": "modern.ttf",
-   "font_italic": 1,
-   "font_size_mm": 2,
+   "base_id" : "garden",
    "detect_tags" :
    {
      "landuse" : "recreation_ground"
@@ -116,11 +71,7 @@
 },
 {
    "id"     : "cemetry",
-   "shape"   : "Area",
-   "text_color" : "ink",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "max_mip": 50,
+   "base_id" : "garden",
    "detect_tags" :
    {
      "landuse" : "cemetery"
@@ -128,11 +79,7 @@
 },
 {
    "id"     : "grave_yard",
-   "shape"   : "Area",
-   "text_color" : "ink",
-   "z_index"  : 0,
-   "fill_color"  : "green",
-   "max_mip": 50,
+   "base_id" : "garden",
    "detect_tags" :
    {
      "amenity" : "grave_yard"

@@ -1,13 +1,13 @@
 [
   {
-    "id"     : "poi_luxury",
+    "id"     : "luxury",
     "shape"   : "Point",
     "z_index"  : 14,
     "z_index_name"  : 3,
     "text_color" : "ink",
-    "width_mm" : 4,
+    "width_mm" : 2.5,
     "font": "modern.ttf",
-    "font_size_mm": 2.5,
+    "font_size_mm": 1.5,
     "svg_stroke": "ink",
     "svg_fill": "background",
     "max_mip": 2,
@@ -16,7 +16,7 @@
   {
     "//": "--- LUXURY DINING (Specific Cuisines) ---",
     "id"          : "restaurant",
-    "base_id"     : "poi_luxury",
+    "base_id"     : "luxury",
     "svg"         : "restaurant.svg"
   },
   {
@@ -47,7 +47,7 @@
   {
       "//": "--- LUXURY SHOPPING (High Value Goods) ---",
       "id"          : "shop",
-      "base_id"     : "poi_luxury",
+      "base_id"     : "luxury",
       "svg"         : "shop.svg"
     },
     {
@@ -78,25 +78,25 @@
     },
     {
         "id"          : "culture_theatre",
-        "base_id"     : "poi_luxury",
+        "base_id"     : "luxury",
         "svg"         : "theatre.svg",
         "detect_tags" : { "amenity": "theatre" }
       },
       {
         "id"          : "culture_museum",
-        "base_id"     : "poi_luxury",
+        "base_id"     : "luxury",
         "svg"         : "museum.svg",
         "detect_tags" : { "tourism": "museum" }
       },
       {
         "id"          : "culture_gallery",
-        "base_id"     : "poi_luxury",
+        "base_id"     : "luxury",
         "svg"         : "arts.svg",
         "detect_tags" : { "tourism": "gallery" }
       },
       {
         "id"          : "culture_arts_centre",
-        "base_id"     : "poi_luxury",
+        "base_id"     : "luxury",
         "svg"         : "arts.svg",
         "detect_tags" : { "amenity": "arts_centre" }
       }
