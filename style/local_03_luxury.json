@@ -5,7 +5,7 @@
     "z_index"  : 14,
     "z_index_name"  : 3,
     "text_color" : "ink",
-    "width_mm" : 2.5,
+    "width_mm" : 2,
     "font": "modern.ttf",
     "font_size_mm": 1.5,
     "svg_stroke": "ink",
