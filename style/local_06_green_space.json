@@ -9,12 +9,12 @@
       "font_italic": 1,
       "font_size_mm": 1.5,
       "font_capitalize": 1,
-      "font_spacing": 150
+      "font_spacing": 150,
+      "max_mip": 50
    },
 {
    "id"     : "forest",
    "base_id": "green_space",
-   "max_mip": 50,
    "detect_tags" :
    {
      "landuse" : "forest"
@@ -22,7 +22,7 @@
 },
 {
    "id"     : "grass",
-   "base_id": "forest",
+   "base_id": "green_space",
    "detect_tags" :
    {
      "landuse" : "grass"
@@ -30,15 +30,20 @@
 },
 {
    "id"     : "wood",
-   "base_id": "forest",
+   "base_id": "green_space",
    "detect_tags" :
    {
      "natural" : "wood"
    }
 },
 {
+   "id"      : "artificial_green_space",
+   "base_id" : "green_space",
+   "max_mip": 10
+},
+{
    "id"      : "park",
-   "base_id" : "forest",
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "leisure" : "park"
@@ -46,8 +51,7 @@
 },
 {
    "id"     : "garden",
-   "base_id" : "green_space",
-   "max_mip": 10,
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "leisure" : "garden"
@@ -55,15 +59,23 @@
 },
 {
    "id"     : "golf_course",
-   "base_id" : "garden",
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "leisure" : "golf_course"
    }
 },
 {
+   "id"     : "pitch",
+   "base_id" : "artificial_green_space",
+   "detect_tags" :
+   {
+     "leisure" : "pitch"
+   }
+},
+{
    "id"     : "recreation_ground",
-   "base_id" : "garden",
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "landuse" : "recreation_ground"
@@ -71,7 +83,7 @@
 },
 {
    "id"     : "cemetry",
-   "base_id" : "garden",
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "landuse" : "cemetery"
@@ -79,7 +91,7 @@
 },
 {
    "id"     : "grave_yard",
-   "base_id" : "garden",
+   "base_id" : "artificial_green_space",
    "detect_tags" :
    {
      "amenity" : "grave_yard"
