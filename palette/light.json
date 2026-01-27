@@ -4,6 +4,7 @@
 
     "color background":  [253, 250, 245],
     "color ink":         [44,  62,  80],
+    "color ink_special": [220, 180, 120],
     "color mid":         [189, 195, 199],
     "color mid_trans":   [189, 195, 199, 150],
     "color fill":        [236, 240, 241],

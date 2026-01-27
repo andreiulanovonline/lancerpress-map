@@ -6,12 +6,12 @@
     "z_index_name"  : 2,
     "text_color" : "ink",
     "width_mm" : 2,
-    "font": "modern.ttf",
-    "font_size_mm": 1.5,
-    "svg_stroke": "ink",
+    "font": "elegant.ttf",
+    "font_size_mm": 2,
+    "svg_stroke": "ink_special",
     "svg_fill": "background",
-    "max_mip": 2,
-    "width_mm" : 3
+    "outline_color": "ink_special",
+    "max_mip": 2
   },
   {
     "id"     : "club",
