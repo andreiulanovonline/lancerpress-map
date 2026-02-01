@@ -7,11 +7,11 @@
     "text_color" : "ink",
     "width_mm" : 2,
     "font": "elegant.ttf",
-    "font_size_mm": 2,
+    "font_size_mm": 3,
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
-    "max_mip": 2
+    "max_mip": 5
   },
   {
     "//": "--- LUXURY DINING (Specific Cuisines) ---",

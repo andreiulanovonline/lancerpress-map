@@ -15,7 +15,7 @@
     "max_mip": 2500,
     "font": "elegant.ttf",
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "place" : "island"
@@ -31,7 +31,7 @@
     "max_mip": 500,
     "font": "elegant.ttf",
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "natural" : "bay"
@@ -44,7 +44,7 @@
     "fill_color"  : "blue",
     "fill_style"  : "Horiz",
     "max_mip": 500,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "natural" : "water",
@@ -73,7 +73,7 @@
     "max_mip": 2500,
     "font": "elegant.ttf",
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "natural" : "water",
@@ -125,7 +125,7 @@
     "fill_color"  : "blue",
     "max_mip": 50,
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "natural" : "water",
@@ -141,7 +141,7 @@
     "text_color"   : "ink",
     "max_mip": 50,
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "natural" : "water",
@@ -193,7 +193,7 @@
     "text_color"   : "ink",
     "max_mip": 50,
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "waterway" : "river"
@@ -209,7 +209,7 @@
     "text_color"   : "ink",
     "max_mip": 50,
     "font_italic": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "waterway" : "canal"

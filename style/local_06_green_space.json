@@ -7,7 +7,7 @@
       "text_color" : "ink",
       "font": "modern.ttf",
       "font_italic": 1,
-      "font_size_mm": 1.5,
+      "font_size_mm": 2,
       "font_capitalize": 1,
       "font_spacing": 150,
       "max_mip": 50

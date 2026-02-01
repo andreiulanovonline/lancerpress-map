@@ -42,7 +42,7 @@
     "text_max_mip": 10,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "highway" : "motorway"
@@ -75,7 +75,7 @@
     "text_max_mip": 5,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 1.4,
+    "font_size_mm": 1.9,
     "detect_tags" :
     {
       "highway" : "trunk"
@@ -108,7 +108,7 @@
     "text_max_mip": 5,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 1.3,
+    "font_size_mm": 1.8,
     "detect_tags" :
     {
       "highway" : "primary"
@@ -141,7 +141,7 @@
     "text_max_mip": 3,
     "font": "mono.ttf",
     "font_capitalize": 1,
-    "font_size_mm": 1.2,
+    "font_size_mm": 1.7,
     "detect_tags" :
     {
       "highway" : "secondary"
@@ -171,7 +171,7 @@
     "max_mip": 10,
     "text_max_mip": 3,
     "font": "mono.ttf",
-    "font_size_mm": 1.1,
+    "font_size_mm": 1.6,
     "font_capitalize": 1,
     "detect_tags" :
     {
@@ -189,7 +189,7 @@
   {
     "id"     : "residential",
     "physical_width_m" : 3,
-    "font_size_mm": 1.0,
+    "font_size_mm": 1.5,
     "base_id": "tertiary",
     "detect_tags" :
     {
@@ -256,7 +256,7 @@
     "text_color" : "ink",
     "max_mip": 3,
     "font": "mono.ttf",
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "highway" : "square"
@@ -270,7 +270,7 @@
     "text_color" : "ink",
     "max_mip": 3,
     "font": "mono.ttf",
-    "font_size_mm": 1.5,
+    "font_size_mm": 2,
     "detect_tags" :
     {
       "highway" : "pedestrian"
