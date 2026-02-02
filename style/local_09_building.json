@@ -12,7 +12,7 @@
   "max_mip": 3,
   "width_mm": 0.1,
   "font": "modern.ttf",
-  "font_size_mm": 2,
+  "font_size_mm": 3.0,
   "detect_tags":
   {
     "building": "*"
@@ -25,7 +25,7 @@
   "fill_color": "fill",
   "max_mip": 10,
   "font": "mono.ttf",
-  "font_size_mm": 2,
+  "font_size_mm": 3.0,
   "detect_tags":
   {
     "man_made": "bridge"

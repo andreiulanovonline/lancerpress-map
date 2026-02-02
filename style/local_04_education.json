@@ -7,7 +7,7 @@
     "text_color" : "ink",
     "width_mm" : 1.5,
     "font": "modern.ttf",
-    "font_size_mm": 3,
+    "font_size_mm": 4.0,
     "svg_stroke": "ink",
     "svg_fill": "background"
   },
