@@ -1,11 +1,5 @@
 [
 {
-    "id"     : "ocean_fine",
-    "shape"   : "Area",
-    "z_index"  : 0,
-    "fill_color"  : "blue"
-},
-{
     "id"     : "island",
     "shape"   : "Area",
     "z_index"  : 0,
@@ -28,7 +22,7 @@
     "z_index_name"  : 12,
     "fill_color"  : "blue",
     "text_color"   : "ink",
-    "max_mip": 500,
+    "max_mip": 2500,
     "font": "elegant.ttf",
     "font_italic": 1,
     "font_size_mm": 3.0,
@@ -43,7 +37,7 @@
     "z_index"  : 0,
     "fill_color"  : "blue",
     "fill_style"  : "Horiz",
-    "max_mip": 500,
+    "max_mip": 2500,
     "font_size_mm": 3.0,
     "detect_tags" :
     {
@@ -56,7 +50,7 @@
     "shape"   : "Area",
     "z_index"  : 0,
     "fill_color"  : "blue",
-    "max_mip": 500,
+    "max_mip": 2500,
     "detect_tags" :
     {
       "natural" : "water",
@@ -85,7 +79,7 @@
     "shape"   : "Area",
     "z_index"  : 1,
     "fill_color"  : "blue",
-    "max_mip": 500,
+    "max_mip": 2500,
     "detect_tags" :
     {
       "natural" : "water",
@@ -97,7 +91,7 @@
     "shape"   : "Area",
     "z_index"  : 1,
     "fill_color"  : "blue",
-    "max_mip": 50,
+    "max_mip": 2500,
     "detect_tags" :
     {
       "natural" : "water",

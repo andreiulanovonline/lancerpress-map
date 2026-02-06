@@ -38,7 +38,7 @@
     "physical_width_m" : 12.0,
     "start_scale_mip" : 2.0,
     "max_width_mm" : 10.0,
-    "max_mip": 1000,
+    "max_mip": 2500,
     "text_max_mip": 10,
     "font": "mono.ttf",
     "font_capitalize": 1,
