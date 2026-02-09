@@ -51,8 +51,6 @@
   {
     "id"     : "motorway_link",
     "base_id": "motorway",
-    "width_mm" : 0.25,
-    "max_mip": 50,
     "detect_tags" :
     {
       "highway" : "motorway_link"
@@ -71,7 +69,7 @@
     "physical_width_m" : 10.0,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 50,
+    "max_mip": 25,
     "text_max_mip": 1,
     "font": "mono.ttf",
     "font_capitalize": 1,
@@ -84,7 +82,6 @@
   {
     "id"     : "trunk_link",
     "base_id": "trunk",
-    "width_mm" : 0.25,
     "detect_tags" :
     {
       "highway" : "trunk_link"
@@ -103,7 +100,7 @@
     "physical_width_m" : 8.0,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 50,
+    "max_mip": 5,
     "text_max_mip": 1,
     "font": "mono.ttf",
     "font_capitalize": 1,
@@ -116,7 +113,6 @@
   {
     "id"     : "primary_link",
     "base_id": "primary",
-    "width_mm" : 0.25,
     "detect_tags" :
     {
       "highway" : "primary_link"
@@ -132,7 +128,7 @@
     "outline_width_pix": 2,
     "outline_color" : "mid_trans",
     "physical_width_m" : 6.0,
-    "width_mm" : 0.4,
+    "width_mm" : 0.5,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
     "max_mip": 3,
