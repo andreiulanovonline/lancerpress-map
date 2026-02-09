@@ -18,7 +18,7 @@
       "outline_width_pix": 1,
       "text"   : "mid",
       "width_mm" : 0.1,
-      "max_mip": 10,
+      "max_mip": 1,
       "font": "mono.ttf",
       "detect_tags" :
       {
@@ -38,8 +38,8 @@
     "physical_width_m" : 12.0,
     "start_scale_mip" : 2.0,
     "max_width_mm" : 10.0,
-    "max_mip": 2500,
-    "text_max_mip": 10,
+    "max_mip": 5,
+    "text_max_mip": 3,
     "font": "mono.ttf",
     "font_capitalize": 1,
     "font_size_mm": 3.0,
@@ -71,8 +71,8 @@
     "physical_width_m" : 10.0,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 1000,
-    "text_max_mip": 5,
+    "max_mip": 5,
+    "text_max_mip": 3,
     "font": "mono.ttf",
     "font_capitalize": 1,
     "font_size_mm": 2.8,
@@ -85,7 +85,6 @@
     "id"     : "trunk_link",
     "base_id": "trunk",
     "width_mm" : 0.25,
-    "max_mip": 50,
     "detect_tags" :
     {
       "highway" : "trunk_link"
@@ -104,8 +103,8 @@
     "physical_width_m" : 8.0,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 100,
-    "text_max_mip": 5,
+    "max_mip": 50,
+    "text_max_mip": 50,
     "font": "mono.ttf",
     "font_capitalize": 1,
     "font_size_mm": 2.6,
@@ -118,7 +117,6 @@
     "id"     : "primary_link",
     "base_id": "primary",
     "width_mm" : 0.25,
-    "max_mip": 50,
     "detect_tags" :
     {
       "highway" : "primary_link"
@@ -137,7 +135,7 @@
     "width_mm" : 0.4,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 10,
+    "max_mip": 3,
     "text_max_mip": 3,
     "font": "mono.ttf",
     "font_capitalize": 1,
@@ -168,7 +166,7 @@
     "width_mm" : 0.5,
     "start_scale_mip" : 4.0,
     "max_width_mm" : 10.0,
-    "max_mip": 10,
+    "max_mip": 3,
     "text_max_mip": 3,
     "font": "mono.ttf",
     "font_size_mm": 2.2,

@@ -9,7 +9,7 @@
   "text_color": "ink",
   "outline_width_pix": 1,
   "text_max_mip": 0.3,
-  "max_mip": 3,
+  "max_mip": 0.5,
   "width_mm": 0.1,
   "font": "modern.ttf",
   "font_size_mm": 3.0,
