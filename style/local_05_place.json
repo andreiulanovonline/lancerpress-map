@@ -8,7 +8,7 @@
       "fill_color"  : "ink",
       "text_color"   : "ink",
       "width_mm" : 1.5,
-      "min_mip": 5,
+      "min_mip": 25,
       "max_mip": 2500,
       "font_size_mm": 5,
       "font_weight": 500,
@@ -28,7 +28,7 @@
     "fill_color"  : "ink",
     "text_color"   : "ink",
     "width_mm" : 1,
-    "min_mip": 5,
+    "min_mip": 25,
     "max_mip": 2500,
     "font_size_mm": 4,
     "font_weight": 500,
@@ -94,30 +94,13 @@
     }
 },
 {
-    "id"     : "borough",
-    "shape"   : "Point",
-    "z_index"  : 9,
-    "z_index_name"  : 6,
-    "text_color"   : "ink_special",
-    "min_mip": 10,
-    "max_mip": 50,
-    "font_size_mm": 5.0,
-    "font_spacing": 150,
-    "font_weight": 500,
-    "font": "modern.ttf",
-    "detect_tags" :
-    {
-      "place" : "borough"
-    }
-},
-{
     "id"     : "suburb",
     "shape"   : "Point",
     "z_index"  : 10,
     "z_index_name"  : 5,
     "text_color"   : "ink_special",
-    "min_mip": 3,
-    "max_mip": 10,
+    "min_mip": 1,
+    "max_mip": 5,
     "font_size_mm": 5.0,
     "font_capitalize": 1,
     "font_spacing": 150,
@@ -129,17 +112,16 @@
     }
 },
 {
+    "id"     : "borough",
+    "base_id" : "suburb",
+    "detect_tags" :
+    {
+      "place" : "borough"
+    }
+},
+{
     "id"     : "neighbourhood",
-    "shape"   : "Point",
-    "z_index"  : 13,
-    "z_index_name"  : 5,
-    "text_color"   : "ink_special",
-    "max_mip": 1,
-    "font_size_mm": 2.0,
-    "font_capitalize": 1,
-    "font_spacing": 150,
-    "font_weight": 500,
-    "font": "modern.ttf",
+    "base_id" : "suburb",
     "detect_tags" :
     {
       "place" : "neighbourhood"

@@ -9,7 +9,8 @@
     "font": "elegant.ttf",
     "font_weight": 500,
     "font_size_mm": 4.0,
-    "max_mip": 3
+    "max_mip": 20,
+    "text_max_mip": 20
   },
   {
     "id"     : "palace_point",

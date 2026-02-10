@@ -10,7 +10,8 @@
       "font_size_mm": 3.0,
       "font_capitalize": 1,
       "font_spacing": 150,
-      "max_mip": 50
+      "max_mip": 50,
+      "text_max_mip": 1
    },
 {
    "id"     : "forest",
