@@ -17,6 +17,7 @@
     "base_id" : "transport",
     "svg" : "tube.svg",
     "max_mip": 5,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "station" : "subway"
@@ -27,6 +28,7 @@
     "base_id" : "transport",
     "svg" : "rail.svg",
     "max_mip": 5,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "railway" : "station"

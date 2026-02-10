@@ -11,7 +11,8 @@
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
-    "max_mip": 1
+    "max_mip": 1,
+    "text_max_mip": 1
   },
   {
     "//": "--- LUXURY DINING (Specific Cuisines) ---",

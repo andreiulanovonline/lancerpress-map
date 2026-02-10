@@ -16,6 +16,7 @@
     "base_id" : "education",
     "svg" : "school.svg",
     "max_mip": 1,
+    "text_max_mip": 1,
     "detect_tags" :
     {
       "amenity" : "school"
@@ -26,6 +27,7 @@
     "base_id" : "education",
     "svg" : "college.svg",
     "max_mip": 3,
+    "text_max_mip": 3,
     "detect_tags" :
     {
       "amenity" : "university"
@@ -36,6 +38,7 @@
     "base_id" : "education",
     "svg" : "college.svg",
     "max_mip": 3,
+    "text_max_mip": 3,
     "detect_tags" :
     {
       "amenity" : "college"
@@ -46,6 +49,7 @@
     "base_id" : "education",
     "svg" : "playground.svg",
     "max_mip": 1,
+    "text_max_mip": 1,
     "width_mm" : 2,
     "detect_tags" :
     {
