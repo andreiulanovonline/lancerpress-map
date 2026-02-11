@@ -1,59 +1,90 @@
 [
   {
-    "id"     : "education",
+    "id"     : "education_point",
     "shape"   : "Point",
     "z_index"  : 11,
     "z_index_name"  : 2,
     "text_color" : "ink",
     "width_mm" : 1.5,
     "font": "modern.ttf",
-    "font_size_mm": 4.0,
+    "font_size_mm": 3.0,
     "svg_stroke": "ink",
     "svg_fill": "background"
   },
+
   {
-    "id"      : "school",
-    "base_id" : "education",
-    "svg" : "school.svg",
-    "max_mip": 1,
-    "text_max_mip": 1,
-    "detect_tags" :
-    {
-      "amenity" : "school"
-    }
+    "id"     : "education_area",
+    "base_id" : "education_point",
+    "shape"   : "Area",
+    "line_color": "mid",
+    "fill_color": "fill",
+    "text_color": "ink"
   },
+
+
   {
-    "id"      : "university",
-    "base_id" : "education",
-    "svg" : "college.svg",
-    "max_mip": 3,
-    "text_max_mip": 3,
-    "detect_tags" :
-    {
-      "amenity" : "university"
-    }
-  },
-  {
-    "id"      : "college",
-    "base_id" : "education",
-    "svg" : "college.svg",
-    "max_mip": 3,
-    "text_max_mip": 3,
-    "detect_tags" :
-    {
-      "amenity" : "college"
-    }
-  },
-  {
-    "id"      : "kindergarten",
-    "base_id" : "education",
+    "id"      : "kindergarten_point",
+    "base_id" : "education_point",
     "svg" : "playground.svg",
     "max_mip": 1,
     "text_max_mip": 1,
-    "width_mm" : 2,
-    "detect_tags" :
-    {
-      "amenity" : "kindergarten"
-    }
+    "detect_tags" : { "amenity" : "kindergarten" }
+  },
+  {
+    "id"      : "kindergarten_area",
+    "base_id" : "education_area",
+    "svg" : "playground.svg",
+    "max_mip": 1,
+    "text_max_mip": 1,
+    "detect_tags" : { "amenity" : "kindergarten" }
+  },
+
+  {
+    "id"      : "school_point",
+    "base_id" : "education_point",
+    "svg" : "school.svg",
+    "max_mip": 10,
+    "detect_tags" : { "amenity" : "school" }
+  },
+  {
+    "id"      : "school_area",
+    "base_id" : "education_area",
+    "svg" : "school.svg",
+    "max_mip": 10,
+    "detect_tags" : { "amenity" : "school" }
+  },
+
+  {
+    "id"      : "college_point",
+    "base_id" : "education_point",
+    "svg" : "college.svg",
+    "max_mip": 3,
+    "text_max_mip": 3,
+    "detect_tags" : { "amenity" : "college" }
+  },
+  {
+    "id"      : "college_area",
+    "base_id" : "education_area",
+    "svg" : "college.svg",
+    "max_mip": 3,
+    "text_max_mip": 3,
+    "detect_tags" : { "amenity" : "college" }
+  },
+
+  {
+    "id"      : "university_point",
+    "base_id" : "education_point",
+    "svg" : "college.svg",
+    "max_mip": 3,
+    "text_max_mip": 3,
+    "detect_tags" : { "amenity" : "university" }
+  },
+  {
+    "id"      : "university_area",
+    "base_id" : "education_area",
+    "svg" : "college.svg",
+    "max_mip": 3,
+    "text_max_mip": 3,
+    "detect_tags" : { "amenity" : "university" }
   }
 ]

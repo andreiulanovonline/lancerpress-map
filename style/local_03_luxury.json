@@ -1,104 +1,220 @@
 [
   {
-    "id"     : "luxury",
-    "shape"   : "Point",
+    "id"     : "luxury_point",
     "z_index"  : 14,
     "z_index_name"  : 3,
     "text_color" : "ink",
     "width_mm" : 2,
     "font": "elegant.ttf",
-    "font_size_mm": 4.0,
+    "font_size_mm": 3.0,
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
     "max_mip": 1,
     "text_max_mip": 1
   },
+
   {
-    "//": "--- LUXURY DINING (Specific Cuisines) ---",
-    "id"          : "restaurant",
-    "base_id"     : "luxury",
+    "id"     : "luxury_area",
+    "base_id" : "luxury_point",
+    "shape"   : "Area",
+    "line_color": "mid",
+    "fill_color": "fill",
+    "text_color": "ink"
+  },
+
+  {
+    "id"          : "restaurant_point",
+    "base_id"     : "luxury_point",
     "svg"         : "restaurant.svg"
   },
   {
-    "id"          : "restaurant_fine_dining",
-    "base_id"     : "restaurant",
+    "id"          : "restaurant_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "restaurant.svg"
+  },
+
+  {
+    "id"          : "restaurant_fine_dining_point",
+    "base_id"     : "restaurant_point",
     "detect_tags" : { "cuisine": "fine_dining" }
   },
+
   {
-    "id"          : "restaurant_japanese",
-    "base_id"     : "restaurant",
+    "id"          : "restaurant_fine_dining_area",
+    "base_id"     : "restaurant_area",
+    "detect_tags" : { "cuisine": "fine_dining" }
+  },
+
+  {
+    "id"          : "restaurant_japanese_point",
+    "base_id"     : "restaurant_point",
     "detect_tags" : { "cuisine": "japanese" }
   },
   {
-    "id"          : "restaurant_french",
-    "base_id"     : "restaurant",
+    "id"          : "restaurant_japanese_area",
+    "base_id"     : "restaurant_area",
+    "detect_tags" : { "cuisine": "japanese" }
+  },
+
+  {
+    "id"          : "restaurant_french_point",
+    "base_id"     : "restaurant_point",
     "detect_tags" : { "cuisine": "french" }
   },
   {
-    "id"          : "restaurant_seafood",
-    "base_id"     : "restaurant",
+    "id"          : "restaurant_french_area",
+    "base_id"     : "restaurant_area",
+    "detect_tags" : { "cuisine": "french" }
+  },
+
+  {
+    "id"          : "restaurant_seafood_point",
+    "base_id"     : "restaurant_point",
     "detect_tags" : { "cuisine": "seafood" }
   },
   {
-    "id"          : "restaurant_steak",
-    "base_id"     : "restaurant",
+    "id"          : "restaurant_seafood_area",
+    "base_id"     : "restaurant_area",
+    "detect_tags" : { "cuisine": "seafood" }
+  },
+
+  {
+    "id"          : "restaurant_steak_house_point",
+    "base_id"     : "restaurant_point",
     "detect_tags" : { "cuisine": "steak_house" }
   },
   {
-      "//": "--- LUXURY SHOPPING (High Value Goods) ---",
-      "id"          : "shop",
-      "base_id"     : "luxury",
-      "svg"         : "shop.svg"
-    },
-    {
-        "id"          : "shop_jewelry",
-        "base_id"     : "shop",
-        "detect_tags" : { "shop": "jewelry" }
-      },
+    "id"          : "restaurant_steak_house_area",
+    "base_id"     : "restaurant_area",
+    "detect_tags" : { "cuisine": "steak_house" }
+  },
 
-    {
-      "id"          : "shop_watches",
-      "base_id"     : "shop",
-      "detect_tags" : { "shop": "watches" }
-    },
-    {
-      "id"          : "shop_boutique",
-      "base_id"     : "shop",
-      "detect_tags" : { "shop": "boutique" }
-    },
-    {
-      "id"          : "shop_wine",
-      "base_id"     : "shop",
-      "detect_tags" : { "shop": "wine" }
-    },
-    {
-      "id"          : "shop_art",
-      "base_id"     : "shop",
-      "detect_tags" : { "shop": "art" }
-    },
-    {
-        "id"          : "culture_theatre",
-        "base_id"     : "luxury",
-        "svg"         : "theatre.svg",
-        "detect_tags" : { "amenity": "theatre" }
-      },
-      {
-        "id"          : "culture_museum",
-        "base_id"     : "luxury",
-        "svg"         : "museum.svg",
-        "detect_tags" : { "tourism": "museum" }
-      },
-      {
-        "id"          : "culture_gallery",
-        "base_id"     : "luxury",
-        "svg"         : "arts.svg",
-        "detect_tags" : { "tourism": "gallery" }
-      },
-      {
-        "id"          : "culture_arts_centre",
-        "base_id"     : "luxury",
-        "svg"         : "arts.svg",
-        "detect_tags" : { "amenity": "arts_centre" }
-      }
+  {
+    "id"          : "shop_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg"
+  },
+  {
+    "id"          : "shop_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg"
+  },
+
+  {
+    "id"          : "shop_jewelry_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "jewelry" }
+  },
+  {
+    "id"          : "shop_jewelry_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "jewelry" }
+  },
+
+  {
+    "id"          : "shop_watches_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "watches" }
+  },
+  {
+    "id"          : "shop_watches_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "watches" }
+  },
+
+  {
+    "id"          : "shop_boutique_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "boutique" }
+  },
+  {
+    "id"          : "shop_boutique_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "boutique" }
+  },
+
+  {
+    "id"          : "shop_wine_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "wine" }
+  },
+  {
+    "id"          : "shop_wine_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "wine" }
+  },
+
+  {
+    "id"          : "shop_art_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "art" }
+  },
+  {
+    "id"          : "shop_art_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "shop.svg",
+    "detect_tags" : { "shop": "art" }
+  },
+
+  {
+    "id"          : "theatre_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "theatre.svg",
+    "detect_tags" : { "amenity": "theatre" }
+  },
+  {
+    "id"          : "theatre_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "theatre.svg",
+    "detect_tags" : { "amenity": "theatre" }
+  },
+
+  {
+    "id"          : "museum_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "museum.svg",
+    "detect_tags" : { "tourism": "museum" }
+  },
+  {
+    "id"          : "museum_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "museum.svg",
+    "detect_tags" : { "tourism": "museum" }
+  },
+
+  {
+    "id"          : "gallery_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "arts.svg",
+    "detect_tags" : { "tourism": "gallery" }
+  },
+  {
+    "id"          : "gallery_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "arts.svg",
+    "detect_tags" : { "tourism": "gallery" }
+  },
+
+  {
+    "id"          : "arts_centre_point",
+    "base_id"     : "luxury_point",
+    "svg"         : "arts.svg",
+    "detect_tags" : { "amenity": "arts_centre" }
+  },
+  {
+    "id"          : "arts_centre_area",
+    "base_id"     : "luxury_area",
+    "svg"         : "arts.svg",
+    "detect_tags" : { "amenity": "arts_centre" }
+  }
 ]

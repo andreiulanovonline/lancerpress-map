@@ -1,0 +1,113 @@
+[
+  {
+    "id"     : "historic_point",
+    "shape"   : "Point",
+    "z_index"  : 15,
+    "z_index_name"  : 1,
+    "text_color" : "ink",
+    "width_mm" : 0.1,
+    "font": "elegant.ttf",
+    "font_weight": 500,
+    "font_size_mm": 3.0,
+    "max_mip": 10,
+    "text_max_mip": 10,
+    "font_capitalize": 1
+  },
+
+  {
+    "id"     : "historic_area",
+    "base_id" : "historic_point",
+    "shape"   : "Area",
+    "line_color": "mid",
+    "fill_color": "fill",
+    "text_color": "ink"
+  },
+
+  {
+    "id"     : "palace_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "palace" }
+  },
+  {
+    "id"     : "palace_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "palace" }
+  },
+
+  {
+    "id"     : "castle_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "castle" }
+  },
+  {
+    "id"     : "castle_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "castle" }
+  },
+
+  {
+    "id"     : "manor_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "manor" }
+  },
+  {
+    "id"     : "manor_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "manor" }
+  },
+
+  {
+    "id"     : "stately_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "stately" }
+  },
+  {
+    "id"     : "stately_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "stately" }
+  },
+
+  {
+    "id"     : "cathedral_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "cathedral" }
+  },
+  {
+    "id"     : "cathedral_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "cathedral" }
+  },
+
+  {
+    "id"     : "church_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "building" : "church" }
+  },
+  {
+    "id"     : "church_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "building" : "church" }
+  },
+
+  {
+    "id"     : "courthouse_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "historic" : "courthouse" }
+  },
+  {
+    "id"     : "courthouse_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "historic" : "courthouse" }
+  },
+
+  {
+    "id"     : "listed_point",
+    "base_id" : "historic_point",
+    "detect_tags" : { "listed_status" : "*" }
+  },
+  {
+    "id"     : "listed_area",
+    "base_id" : "historic_area",
+    "detect_tags" : { "listed_status" : "*" }
+  }
+]

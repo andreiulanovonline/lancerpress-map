@@ -1,96 +1,128 @@
 [
   {
-    "id"     : "famous",
+    "id"     : "famous_point",
     "shape"   : "Point",
     "z_index"  : 14,
     "z_index_name"  : 2,
     "text_color" : "ink",
     "width_mm" : 2,
     "font": "elegant.ttf",
-    "font_size_mm": 4.0,
+    "font_size_mm": 3.0,
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
     "max_mip": 2,
     "text_max_mip": 2
   },
+
   {
-    "id"     : "club",
-    "base_id": "famous",
+    "id"     : "famous_area",
+    "base_id": "famous_point",
+    "shape"   : "Area",
+    "line_color": "mid",
+    "fill_color": "fill",
+    "text_color": "ink"
+  },
+
+  {
+    "id"     : "club_point",
+    "base_id": "famous_point",
     "svg" : "club.svg",
-    "detect_tags" :
-    {
-      "club": "*",
-      "wikipedia": "*"
-    }
+    "detect_tags" : { "club": "*", "wikipedia": "*" }
   },
   {
-    "id"     : "hotel",
-    "base_id": "famous",
+    "id"     : "club_area",
+    "base_id": "famous_area",
+    "svg" : "club.svg",
+    "detect_tags" : { "club": "*", "wikipedia": "*" }
+  },
+
+  {
+    "id"     : "hotel_point",
+    "base_id": "famous_point",
     "svg" : "hotel.svg",
-    "detect_tags" :
-    {
-      "building": "hotel",
-      "wikipedia": "*"
-    }
+    "detect_tags" : { "building": "hotel", "wikipedia": "*" }
   },
   {
-    "id"     : "dining_wikipedia",
-    "base_id": "famous",
+    "id"     : "hotel_area",
+    "base_id": "famous_area",
+    "svg" : "hotel.svg",
+    "detect_tags" : { "building": "hotel", "wikipedia": "*" }
+  },
+
+  {
+    "id"     : "restaurant_wiki_point",
+    "base_id": "famous_point",
     "svg" : "restaurant.svg",
-    "detect_tags" :
-    {
-      "amenity": "restaurant",
-      "wikipedia": "*"
-    }
+    "detect_tags" : { "amenity": "restaurant", "wikipedia": "*" }
   },
   {
-    "id"     : "dining_website",
-    "base_id": "famous",
+    "id"     : "restaurant_wiki_area",
+    "base_id": "famous_area",
     "svg" : "restaurant.svg",
-    "detect_tags" :
-    {
-      "amenity": "restaurant",
-      "website": "*"
-    }
+    "detect_tags" : { "amenity": "restaurant", "wikipedia": "*" }
+  },
+
+  {
+    "id"     : "restaurant_website_point",
+    "base_id": "famous_point",
+    "svg" : "restaurant.svg",
+    "detect_tags" : { "amenity": "restaurant", "website": "*" }
   },
   {
-    "id"     : "auction",
-    "base_id": "famous",
+    "id"     : "restaurant_website_area",
+    "base_id": "famous_area",
+    "svg" : "restaurant.svg",
+    "detect_tags" : { "amenity": "restaurant", "website": "*" }
+  },
+
+  {
+    "id"     : "auction_website_point",
+    "base_id": "famous_point",
     "svg" : "auction.svg",
-    "detect_tags" :
-    {
-      "name": "*",
-      "shop": "auction"
-    }
+    "detect_tags" : { "name": "*", "shop": "auction" }
   },
   {
-    "id"     : "jewelry",
-    "base_id": "famous",
+    "id"     : "auction_website_area",
+    "base_id": "famous_area",
+    "svg" : "auction.svg",
+    "detect_tags" : { "name": "*", "shop": "auction" }
+  },
+
+  {
+    "id"     : "jewelry_point",
+    "base_id": "famous_point",
     "svg" : "jewelry.svg",
-    "detect_tags" :
-    {
-      "name": "*",
-      "shop": "jewelry"
-    }
+    "detect_tags" : { "name": "*", "shop": "jewelry" }
   },
   {
-    "id"     : "theatre",
-    "base_id": "famous",
+    "id"     : "jewelry_area",
+    "base_id": "famous_area",
+    "svg" : "jewelry.svg",
+    "detect_tags" : { "name": "*", "shop": "jewelry" }
+  },
+
+  {
+    "id"     : "theatre_listed_point",
+    "base_id": "famous_point",
     "svg" : "theatre.svg",
-    "detect_tags" :
-    {
-      "theatre:genre": "*",
-      "listed_status": "*"
-    }
+    "detect_tags" : { "theatre:genre": "*", "listed_status": "*" }
   },
   {
-    "id"     : "famous_building",
-    "base_id": "famous",
-    "detect_tags" :
-    {
-      "name": "*",
-      "listed_status": "*"
-    }
+    "id"     : "theatre_listed_area",
+    "base_id": "famous_area",
+    "svg" : "theatre.svg",
+    "detect_tags" : { "theatre:genre": "*", "listed_status": "*" }
+  },
+
+  {
+    "id"     : "famous_building_point",
+    "base_id": "famous_point",
+    "detect_tags" : { "name": "*", "listed_status": "*" }
+  },
+  {
+    "id"     : "famous_building_area",
+    "base_id": "famous_area",
+    "detect_tags" : { "name": "*", "listed_status": "*" }
   }
 ]
