@@ -9,16 +9,18 @@
     "font": "elegant.ttf",
     "font_weight": 500,
     "font_size_mm": 3.0,
-    "max_mip": 10,
-    "text_max_mip": 10,
-    "font_capitalize": 1
+    "max_mip": 5,
+    "text_max_mip": 5,
+    "font_capitalize": 1,
+    "svg_stroke": "ink_special",
+    "svg_fill": "background"
   },
 
   {
     "id"     : "historic_area",
     "base_id" : "historic_point",
     "shape"   : "Area",
-    "line_color": "mid",
+    "line_color": "ink_special",
     "fill_color": "fill",
     "text_color": "ink"
   },
@@ -70,23 +72,14 @@
   {
     "id"     : "cathedral_point",
     "base_id" : "historic_point",
+    "svg" : "christian.svg",
     "detect_tags" : { "historic" : "cathedral" }
   },
   {
     "id"     : "cathedral_area",
     "base_id" : "historic_area",
+    "svg" : "christian.svg",
     "detect_tags" : { "historic" : "cathedral" }
-  },
-
-  {
-    "id"     : "church_point",
-    "base_id" : "historic_point",
-    "detect_tags" : { "building" : "church" }
-  },
-  {
-    "id"     : "church_area",
-    "base_id" : "historic_area",
-    "detect_tags" : { "building" : "church" }
   },
 
   {
@@ -103,11 +96,11 @@
   {
     "id"     : "listed_point",
     "base_id" : "historic_point",
-    "detect_tags" : { "listed_status" : "*" }
+    "detect_tags" : { "listed_status" : "Grade I" }
   },
   {
     "id"     : "listed_area",
     "base_id" : "historic_area",
-    "detect_tags" : { "listed_status" : "*" }
+    "detect_tags" : { "listed_status" : "Grade I" }
   }
 ]

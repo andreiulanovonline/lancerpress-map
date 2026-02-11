@@ -5,7 +5,6 @@
     "z_index"  : 15,
     "z_index_name"  : 1,
     "text_color" : "ink",
-    "width_mm" : 2,
     "font": "modern.ttf",
     "font_weight": 500,
     "font_size_mm": 2.0,
@@ -16,8 +15,8 @@
     "id"      : "subway_station",
     "base_id" : "transport",
     "svg" : "tube.svg",
-    "max_mip": 5,
-    "text_max_mip": 5,
+    "max_mip": 3,
+    "text_max_mip": 3,
     "detect_tags" :
     {
       "station" : "subway"
@@ -27,8 +26,8 @@
     "id"     : "railway_station",
     "base_id" : "transport",
     "svg" : "rail.svg",
-    "max_mip": 5,
-    "text_max_mip": 5,
+    "max_mip": 10,
+    "text_max_mip": 10,
     "detect_tags" :
     {
       "railway" : "station"

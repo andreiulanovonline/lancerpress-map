@@ -1,0 +1,91 @@
+[
+  {
+    "id"     : "religion_point",
+    "shape"   : "Point",
+    "z_index"  : 15,
+    "z_index_name"  : 2,
+    "text_color" : "ink",
+    "width_mm" : 0.1,
+    "font": "elegant.ttf",
+    "font_weight": 500,
+    "font_size_mm": 3.0,
+    "max_mip": 1,
+    "text_max_mip": 0.5,
+    "font_capitalize": 1,
+    "svg_stroke": "ink_special",
+    "svg_fill": "background"
+  },
+
+  {
+    "id"     : "religion_area",
+    "base_id" : "religion_point",
+    "shape"   : "Area",
+    "line_color": "ink_special",
+    "fill_color": "fill",
+    "text_color": "ink"
+  },
+
+  {
+    "id"     : "christian_point",
+    "base_id" : "religion_point",
+    "svg" : "christian.svg",
+    "detect_tags" : { "building": "*", "religion" : "christian" }
+  },
+  {
+    "id"     : "christian_area",
+    "base_id" : "religion_area",
+    "svg" : "christian.svg",
+    "detect_tags" : { "building": "*", "religion" : "christian" }
+  },
+
+  {
+    "id"     : "muslim_point",
+    "base_id" : "religion_point",
+    "svg" : "muslim.svg",
+    "detect_tags" : { "building": "*", "religion" : "muslim" }
+  },
+  {
+    "id"     : "muslim_area",
+    "base_id" : "religion_area",
+    "svg" : "muslim.svg",
+    "detect_tags" : { "building": "*", "religion" : "muslim" }
+  },
+  {
+    "id"     : "mosque_point",
+    "base_id" : "religion_point",
+    "svg" : "muslim.svg",
+    "detect_tags" : { "building": "mosque" }
+  },
+  {
+    "id"     : "mosque_area",
+    "base_id" : "religion_area",
+    "svg" : "muslim.svg",
+    "detect_tags" : { "building": "mosque" }
+  },
+
+  {
+    "id"     : "jewish_point",
+    "base_id" : "religion_point",
+    "svg" : "jewish.svg",
+    "detect_tags" : { "building": "*", "religion" : "jewish" }
+  },
+  {
+    "id"     : "jewish_area",
+    "base_id" : "religion_area",
+    "svg" : "jewish.svg",
+    "detect_tags" : { "building": "*", "religion" : "jewish" }
+  },
+
+  {
+    "id"     : "buddhist_point",
+    "base_id" : "religion_point",
+    "svg" : "buddhist.svg",
+    "detect_tags" : { "building": "*", "religion" : "buddhist" }
+  },
+  {
+    "id"     : "buddhist_area",
+    "base_id" : "religion_area",
+    "svg" : "buddhist.svg",
+    "detect_tags" : { "building": "*", "religion" : "buddhist" }
+  }
+]

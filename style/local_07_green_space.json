@@ -3,15 +3,16 @@
       "id"     : "green_space",
       "shape"   : "Area",
       "z_index"  : 0,
+      "z_index_name"  : 3,
       "fill_color"  : "green",
       "text_color" : "ink",
       "font": "modern.ttf",
       "font_italic": 1,
-      "font_size_mm": 3.0,
+      "font_size_mm": 2.0,
       "font_capitalize": 1,
       "font_spacing": 150,
-      "max_mip": 50,
-      "text_max_mip": 1
+      "max_mip": 10,
+      "text_max_mip": 3
    },
 {
    "id"     : "forest",

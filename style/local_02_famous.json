@@ -5,21 +5,21 @@
     "z_index"  : 14,
     "z_index_name"  : 2,
     "text_color" : "ink",
-    "width_mm" : 2,
+    "line_color" : "ink_special",
     "font": "elegant.ttf",
     "font_size_mm": 3.0,
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
-    "max_mip": 2,
-    "text_max_mip": 2
+    "max_mip": 1,
+    "text_max_mip": 0.5
   },
 
   {
     "id"     : "famous_area",
     "base_id": "famous_point",
     "shape"   : "Area",
-    "line_color": "mid",
+    "line_color": "ink_special",
     "fill_color": "fill",
     "text_color": "ink"
   },
@@ -113,16 +113,5 @@
     "base_id": "famous_area",
     "svg" : "theatre.svg",
     "detect_tags" : { "theatre:genre": "*", "listed_status": "*" }
-  },
-
-  {
-    "id"     : "famous_building_point",
-    "base_id": "famous_point",
-    "detect_tags" : { "name": "*", "listed_status": "*" }
-  },
-  {
-    "id"     : "famous_building_area",
-    "base_id": "famous_area",
-    "detect_tags" : { "name": "*", "listed_status": "*" }
   }
 ]

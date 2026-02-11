@@ -4,21 +4,21 @@
     "z_index"  : 14,
     "z_index_name"  : 3,
     "text_color" : "ink",
-    "width_mm" : 2,
+    "line_color" : "ink_special",
     "font": "elegant.ttf",
     "font_size_mm": 3.0,
     "svg_stroke": "ink_special",
     "svg_fill": "background",
     "outline_color": "ink_special",
     "max_mip": 1,
-    "text_max_mip": 1
+    "text_max_mip": 0.5
   },
 
   {
     "id"     : "luxury_area",
     "base_id" : "luxury_point",
     "shape"   : "Area",
-    "line_color": "mid",
+    "line_color": "ink_special",
     "fill_color": "fill",
     "text_color": "ink"
   },
