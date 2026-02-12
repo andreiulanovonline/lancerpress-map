@@ -15,7 +15,7 @@
     "id"      : "subway_station",
     "base_id" : "transport",
     "svg" : "tube.svg",
-    "max_mip": 3,
+    "max_mip": 5,
     "text_max_mip": 3,
     "detect_tags" :
     {
@@ -26,11 +26,27 @@
     "id"     : "railway_station",
     "base_id" : "transport",
     "svg" : "rail.svg",
-    "max_mip": 10,
+    "max_mip": 100,
     "text_max_mip": 10,
+    "svg_width_mm": 3.0,
     "detect_tags" :
     {
       "railway" : "station"
+    }
+  },
+  {
+    "id"     : "airport",
+    "base_id" : "transport",
+    "shape"   : "Area",
+    "svg" : "airport.svg",
+    "max_mip": 100,
+    "text_max_mip": 25,
+    "svg_width_mm": 4.0,
+    "svg_stroke": "ink_special",
+    "svg_fill": "background",
+    "detect_tags" :
+    {
+      "aeroway": "aerodrome"
     }
   }
 ]

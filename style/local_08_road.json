@@ -1,28 +1,19 @@
 [
   {
-      "id"     : "tunnel",
-      "shape"   : "Line",
-      "z_index"  : 0,
-      "detect_tags" :
-      {
-        "tunnel" : "yes"
-      }
-  },
-  {
       "id"     : "rail",
       "shape"   : "Line",
       "z_index"  : 5,
       "line_color" : "mid",
-      "line_style"  : "DashLine",
       "outline_color": "mid",
       "outline_width_pix": 1,
       "text"   : "mid",
       "width_mm" : 0.1,
-      "max_mip": 1,
+      "max_mip": 25,
       "font": "mono.ttf",
       "detect_tags" :
       {
-        "railway" : "rail"
+        "railway" : "rail",
+        "usage":"main"
       }
   },
   {

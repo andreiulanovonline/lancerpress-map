@@ -28,22 +28,30 @@
   {
     "id"     : "palace_point",
     "base_id" : "historic_point",
+    "svg": "palace.svg",
+    "svg_width_mm": 4.0,
     "detect_tags" : { "historic" : "palace" }
   },
   {
     "id"     : "palace_area",
     "base_id" : "historic_area",
+    "svg": "palace.svg",
+    "svg_width_mm": 4.0,
     "detect_tags" : { "historic" : "palace" }
   },
 
   {
     "id"     : "castle_point",
     "base_id" : "historic_point",
+    "svg": "castle.svg",
+    "svg_width_mm": 4.0,
     "detect_tags" : { "historic" : "castle" }
   },
   {
     "id"     : "castle_area",
     "base_id" : "historic_area",
+    "svg": "castle.svg",
+    "svg_width_mm": 4.0,
     "detect_tags" : { "historic" : "castle" }
   },
 

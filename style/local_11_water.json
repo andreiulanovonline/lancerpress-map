@@ -98,6 +98,7 @@
     "z_index"  : 1,
     "fill_color"  : "blue",
     "max_mip": 2500,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "natural" : "water",
@@ -110,6 +111,7 @@
     "z_index"  : 1,
     "fill_color"  : "blue",
     "max_mip": 50,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "natural" : "water",
@@ -124,6 +126,7 @@
     "text_color"   : "ink",
     "fill_color"  : "blue",
     "max_mip": 50,
+    "text_max_mip": 5,
     "font_italic": 1,
     "font_size_mm": 3.0,
     "detect_tags" :
@@ -140,6 +143,7 @@
     "fill_color"  : "blue",
     "text_color"   : "ink",
     "max_mip": 50,
+    "text_max_mip": 5,
     "font_italic": 1,
     "font_size_mm": 3.0,
     "detect_tags" :
@@ -155,6 +159,7 @@
     "z_index_name"  : 12,
     "fill_color"  : "blue",
     "max_mip": 50,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "natural" : "water",
@@ -167,6 +172,7 @@
     "z_index"  : 1,
     "fill_color"  : "blue",
     "max_mip": 50,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "natural" : "water",
@@ -179,6 +185,7 @@
     "z_index"  : 1,
     "fill_color"  : "blue",
     "max_mip": 50,
+    "text_max_mip": 5,
     "detect_tags" :
     {
       "natural" : "water"
@@ -192,6 +199,7 @@
     "width_mm" : 0.1,
     "text_color"   : "ink",
     "max_mip": 50,
+    "text_max_mip": 5,
     "font_italic": 1,
     "font_size_mm": 3.0,
     "detect_tags" :
@@ -208,6 +216,7 @@
     "line_color"   : "mid",
     "text_color"   : "ink",
     "max_mip": 50,
+    "text_max_mip": 5,
     "font_italic": 1,
     "font_size_mm": 3.0,
     "detect_tags" :

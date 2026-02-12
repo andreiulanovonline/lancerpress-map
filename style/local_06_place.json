@@ -82,8 +82,8 @@
     "z_index"  : 13,
     "z_index_name"  : 5,
     "text_color"   : "ink_special",
-    "min_mip": 50,
-    "max_mip": 2500,
+    "min_mip": 10,
+    "max_mip": 100,
     "font_size_mm": 2.0,
     "font_weight": 200,
     "font_capitalize": 1,
@@ -134,7 +134,59 @@
     {
       "place" : "quarter"
     }
+},
+{
+    "id"     : "boundary4_area",
+    "shape"   : "Area",
+    "z_order" : 11,
+    "text_color" : "mid",
+    "line_color" : "mid",
+    "line_style" : "DashLine",
+    "width_mm"  : 0.5,
+    "min_mip": 1,
+    "max_mip": 50,
+    "min_mip": 5,
+    "detect_tags" :
+    {
+      "boundary"     : "administrative",
+      "admin_level" : "4"
+    }
+},
+{
+    "id"     : "boundary5_area",
+    "shape"   : "Area",
+    "z_order" : 11,
+    "text_color" : "mid",
+    "line_color" : "mid",
+    "line_style" : "DashLine",
+    "width_mm"  : 0.4,
+    "min_mip": 1,
+    "max_mip": 50,
+    "min_mip": 5,
+    "detect_tags" :
+    {
+      "boundary"     : "administrative",
+      "admin_level" : "5"
+    }
+},
+{
+    "id"     : "boundary6_area",
+    "shape"   : "Area",
+    "z_order" : 11,
+    "text_color" : "mid",
+    "line_color" : "mid",
+    "line_style" : "DashLine",
+    "width_mm"  : 0.3,
+    "min_mip": 1,
+    "max_mip": 50,
+    "min_mip": 5,
+    "detect_tags" :
+    {
+      "boundary"     : "administrative",
+      "admin_level" : "6"
+    }
 }
+
 
 ]
 
